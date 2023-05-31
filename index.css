@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+}
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    gap: 10px
+}
+
+li {
+    cursor: pointer;
+}
+
+.icon {
+    width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.item{
+    position: relative;
+}
+
+.caption {
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+button{
+    align-self: center;
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.chatbox-bg{
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+}
+
+.chatbox-img {
+    width: 50%; 
+    margin: auto;
+ }
+ 
+/*======position absolute and ralative=======*/
+
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#2980b9, #6dd5fa); 
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+   text-align: center;
+   color: gold;
+   font-weight: 300;
+}
+
+.map-container {
+    position: relative;
+    margin: 30px auto 0 auto;
+    width: 300px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sun-icon {
+    position: relative;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+
+.temperature {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    font-size: 20px;
+} */
+/*======End position absolute and ralative=======*/
+
+/*
+=============Aside scrimba for container left right top bottom=============
+*/
+/* 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.meme-container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-image: url('husky.png');
+    background-size: cover;
+    margin: 30px auto;
+    box-shadow: 1px 1px 5px #999; 
+}
+
+.meme-text {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    width: 250px;
+    margin: auto 0 0 auto;
+
+}
+
+h1 {
+   font-size: 18px; 
+} */
+
+/*
+========END Aside scrimba for container left right top bottom======*/
